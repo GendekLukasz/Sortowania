@@ -122,7 +122,7 @@ namespace Sortowania
 
         }
     }
-    class Sortowanie
+    class BubbleSort
     {
         public static int[] sort(int[] tab)
         {
@@ -228,11 +228,11 @@ namespace Sortowania
             Console.WriteLine("timeMerge: " + timeMerge);
         
             //DateTime startTest2 = DateTime.Now;
-            //Sortowanie.sort(table2.testTable);
+            //BubbleSort.sort(table2.testTable);
 
             //DateTime endTest2 = DateTime.Now;
-            //TimeSpan timeBuble = endTest2 - startTest2 ;
-            //Console.WriteLine("timeBuble: " + timeBuble);
+            //TimeSpan timeBubble = endTest2 - startTest2 ;
+            //Console.WriteLine("timeBuble: " + timeBubble);
 
             DateTime startTest3 = DateTime.Now;
             HeapSort.sort(table3.testTable);
